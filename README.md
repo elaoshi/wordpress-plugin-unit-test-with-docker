@@ -1,10 +1,13 @@
+# Purpose
+
+    a starter for applying TDD in wordpress plugin development
+
 # Env
----
 
     php 7.3.11 + docker compose + wordpress
 
 # Install phpunit steps:
----
+
 1. start wordpress docker instance:  `docker compose up -d`
 
 2. setup wordpress by access ` http://localhost ` in your browser
