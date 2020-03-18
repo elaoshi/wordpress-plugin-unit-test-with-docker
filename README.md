@@ -14,8 +14,8 @@
 4. inside docker instance then run : `sh init.sh`
     
     ps: if you already have bootstrap.php , then replace it
-    
-    <img src="https://github.com/elaoshi/wordpress-plugin-unit-test/blob/master/screenshots/replace_files.jpg?raw=true" width="300" />
+
+    <img src="https://github.com/elaoshi/wordpress-plugin-unit-test/blob/master/screenshots/replace_files.jpg?raw=true" width="500" />
 5. when it finished, run : 
     
     ` cd ./wp-content/plugins/my-test-plugin `
@@ -27,7 +27,7 @@
 If finished without error , All Done.
 
 6. Type : `phpunit` to start testing
-
+    <img src="https://github.com/elaoshi/wordpress-plugin-unit-test/blob/master/screenshots/test_success.jpg?raw=true" width="500" />
 
 7. If you have any problem, please contact me : ericlzyu at gmail.com
 
