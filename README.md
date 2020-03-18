@@ -5,7 +5,6 @@
 
 # Install phpunit steps:
 ---
-
 1. start wordpress docker instance:  `docker compose up -d`
 
 2. setup wordpress by access ` http://localhost ` in your browser
