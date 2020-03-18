@@ -27,6 +27,7 @@
 If finished without error , All Done.
 
 6. Type : `phpunit` to start testing
+
     <img src="https://github.com/elaoshi/wordpress-plugin-unit-test/blob/master/screenshots/test_success.jpg?raw=true" width="500" />
 
 7. If you have any problem, please contact me : ericlzyu at gmail.com
