@@ -15,9 +15,12 @@
     
     ps: if you already have bootstrap.php , then replace it
     
-5. when it finished, run :  ` cd ./wp-content/plugins/my-test-plugin `
+5. when it finished, run : 
+    
+    ` cd ./wp-content/plugins/my-test-plugin `
     
 6. Assume db ( a new db just for testing ) names wordpress_test_db_2:
+
     `bin/install-wp-tests.sh wordpress_test_db_2 root 'ChangeMeIfYouWant' mysql`
 
 If finished without error , All Done.
@@ -28,8 +31,12 @@ If finished without error , All Done.
 7. If you have any problem, please contact me : ericlzyu at gmail.com
 
 8. When next time you want to test, run : 
+
     docker exec -it eric-wp-mt_1 /bin/bash
+    
     source env.sh
+
     cd ./wp-content/plugins/my-test-plugin
+
     phpunit
 
