@@ -15,6 +15,7 @@
     
     ps: if you already have bootstrap.php , then replace it
     
+    <img src="https://github.com/elaoshi/wordpress-plugin-unit-test/blob/master/screenshots/replace_files.jpg?raw=true" width="300" />
 5. when it finished, run : 
     
     ` cd ./wp-content/plugins/my-test-plugin `
@@ -33,7 +34,7 @@ If finished without error , All Done.
 8. When next time you want to test, run : 
 
     docker exec -it eric-wp-mt_1 /bin/bash
-    
+
     source env.sh
 
     cd ./wp-content/plugins/my-test-plugin
