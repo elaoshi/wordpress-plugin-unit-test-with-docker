@@ -1,0 +1,19 @@
+version: "2"
+services:
+  eric-wpdb-mt:
+    image: mariadb
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: ChangeMeIfYouWant
+  eric-wp-mt:
+    image: wordpress
+    volumes:
+      - ./:/var/www/html
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+    ports:
+      - "80:80"
+    links:
+      - my-wpdb-mt:mysql
+    environment:
+      WORDPRESS_DB_PASSWORD: ChangeMeIfYouWant
